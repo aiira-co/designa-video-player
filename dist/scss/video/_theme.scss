@@ -1,0 +1,99 @@
+.ad-video {
+
+    // COLOR SCHEMES
+    &.theme-blue {
+        span.screen-button {
+            background-color: rgba($blue, 0.9);
+        }
+
+        .ad-controls {
+            &>div.range-seeker {
+                background-color: $blue;
+            }
+
+            .volume-range {
+                input[type='range'] {
+                    &::-webkit-slider-runnable-track {
+                        background-color: $blue;
+                    }
+
+                    &::-webkit-slider-thumb {
+                        @include shadow(0, 0, 10px, 5px, $blue);
+                    }
+                }
+            }
+        }
+    }
+
+    &.theme-pink {
+        span.screen-button {
+            background-color: rgba($pink, 0.9);
+        }
+
+        .ad-controls {
+            &>div.range-seeker {
+                background-color: $pink;
+            }
+
+            .volume-range {
+                input[type='range'] {
+                    &::-webkit-slider-runnable-track {
+                        background-color: $pink;
+                    }
+
+                    &::-webkit-slider-thumb {
+                        @include shadow(0, 0, 10px, 5px, $pink);
+                    }
+                }
+            }
+        }
+    }
+
+    &.theme-yellow {
+        span.screen-button {
+            background-color: rgba($yellow, 0.9);
+        }
+
+        .ad-controls {
+            &>div.range-seeker {
+                background-color: $yellow;
+            }
+
+            .volume-range {
+                input[type='range'] {
+                    &::-webkit-slider-runnable-track {
+                        background-color: $yellow;
+                    }
+
+                    &::-webkit-slider-thumb {
+                        @include shadow(0, 0, 10px, 5px, $yellow);
+                    }
+                }
+            }
+        }
+    }
+
+    &.theme-prim {
+        span.screen-button {
+            background-color: rgba($prim, 0.9);
+        }
+
+        .ad-controls {
+            &>div.range-seeker {
+                background-color: $prim;
+            }
+
+            .volume-range {
+                input[type='range'] {
+                    &::-webkit-slider-runnable-track {
+                        background-color: $prim;
+                    }
+
+                    &::-webkit-slider-thumb {
+                        @include shadow(0, 0, 10px, 5px, $prim);
+                    }
+                }
+            }
+        }
+    }
+}
