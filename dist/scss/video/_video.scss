@@ -1,4 +1,4 @@
-.ad-video {
+.#{$classPrefix}-video {
     display: block;
     width: 100%;
     height: auto;
@@ -55,7 +55,7 @@
       }
     }
     &:hover {
-      .ad-controls {
+      .#{$classPrefix}-controls {
         bottom: 0; // -moz-transform: translateY(-20px);
         &[locked] {
           bottom: -36px; // -moz-transform: translateY(0);
@@ -65,7 +65,7 @@
         }
       }
     }
-    .ad-heading {
+    .#{$classPrefix}-heading {
       position: absolute;
       top: 0;
       left: 0;
@@ -86,7 +86,7 @@
         opacity: 1;
       }
     }
-    span.ad-message-display {
+    span.#{$classPrefix}-message-display {
       background-color: rgba(black, 0.7);
       color: white;
       position: absolute;
@@ -99,7 +99,7 @@
   }
   
   @media screen and (max-width: 513px) {
-    .ad-video {
+    .#{$classPrefix}-video {
       span.screen-button {
         i.fa-play {
           // background-color:rgba(255, 0, 0, 0.329);

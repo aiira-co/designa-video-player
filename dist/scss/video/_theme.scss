@@ -1,4 +1,4 @@
-.ad-video {
+.#{$classPrefix}-video {
 
     // COLOR SCHEMES
     &.theme-blue {
@@ -6,7 +6,7 @@
             background-color: rgba($blue, 0.9);
         }
 
-        .ad-controls {
+        .#{$classPrefix}-controls {
             &>div.range-seeker {
                 background-color: $blue;
             }
@@ -30,7 +30,7 @@
             background-color: rgba($pink, 0.9);
         }
 
-        .ad-controls {
+        .#{$classPrefix}-controls {
             &>div.range-seeker {
                 background-color: $pink;
             }
@@ -54,7 +54,7 @@
             background-color: rgba($yellow, 0.9);
         }
 
-        .ad-controls {
+        .#{$classPrefix}-controls {
             &>div.range-seeker {
                 background-color: $yellow;
             }
@@ -78,7 +78,7 @@
             background-color: rgba($prim, 0.9);
         }
 
-        .ad-controls {
+        .#{$classPrefix}-controls {
             &>div.range-seeker {
                 background-color: $prim;
             }

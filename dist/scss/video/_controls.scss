@@ -1,5 +1,5 @@
-.ad-video {
-    .ad-controls {
+.#{$classPrefix}-video {
+    .#{$classPrefix}-controls {
         display: block; // background-color:  rgba($dark, 0.9);
         background: linear-gradient(transparent 5%, rgba(0, 0, 0, 0.658), black);
         width: 100%;
@@ -29,7 +29,7 @@
             z-index: 0;
         }
 
-        span.ad-timer {
+        span.#{$classPrefix}-timer {
             display: inline-block;
             -moz-transform: translateY(-16px); // transform:translatey(10);
             // background-color: red;
@@ -138,11 +138,11 @@
             }
         }
 
-        button.ad-btn {
+        button.#{$classPrefix}-btn {
             margin-top: 3px;
             -moz-transform: translateY(-16px);
 
-            &.outline.ad-flat {
+            &.outline.#{$classPrefix}-flat {
                 color: white;
             }
 
