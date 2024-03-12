@@ -18,13 +18,13 @@
     }
     &.mini-mode {
       position: fixed; // left:0;
-      right: 16px; // top:0;
-      bottom: 16px;
-      width: 320px;
+      right: 1.6rem; // top:0;
+      bottom: 1.6rem;
+      width: 32.0rem;
       height: 180px;
       z-index: 999;
-      border-radius: 5px;
-      box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.377);
+      border-radius: 0.5rem;
+      box-shadow: 0 0 0.5rem 0px rgba(0, 0, 0, 0.377);
     }
     video {
       width: 100%;
@@ -44,19 +44,19 @@
       i.fa-play {
         // background-color:rgba(255, 0, 0, 0.329);
         margin-left: -11px;
-        margin-top: -20px;
+        margin-top: -2.0rem;
         transform: scale(1.2);
       }
       i.fa-pause {
         // background-color:rgba(255, 0, 0, 0.329);
-        margin-left: -20px;
-        margin-top: -20px;
+        margin-left: -2.0rem;
+        margin-top: -2.0rem;
         transform: scale(1);
       }
     }
     &:hover {
       .#{$classPrefix}-controls {
-        bottom: 0; // -moz-transform: translateY(-20px);
+        bottom: 0; // -moz-transform: translateY(-2.0rem);
         &[locked] {
           bottom: -36px; // -moz-transform: translateY(0);
         }
@@ -71,8 +71,8 @@
       left: 0;
       right: 0;
       width: 100%;
-      height: 30px;
-      padding-top: 5px;
+      height: 3.0rem;
+      padding-top: 0.5rem;
       background: linear-gradient(
         rgba(black, 0.8) 10%,
         rgba(0, 0, 0, 0.658),
@@ -91,14 +91,14 @@
       color: white;
       position: absolute;
       top: 40px;
-      left: 24px;
+      left: 2.4rem;
       border-radius: 2px;
       padding: 4px 10px;
     }
      
   }
   
-  @media screen and (max-width: 513px) {
+  @media screen and (max-width: 510.3rem) {
     .#{$classPrefix}-video {
       span.screen-button {
         i.fa-play {

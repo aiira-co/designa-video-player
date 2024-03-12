@@ -18,7 +18,7 @@
                     }
 
                     &::-webkit-slider-thumb {
-                        @include shadow(0, 0, 10px, 5px, $blue);
+                        @include shadow(0, 0, 10px, 0.5rem, $blue);
                     }
                 }
             }
@@ -42,7 +42,7 @@
                     }
 
                     &::-webkit-slider-thumb {
-                        @include shadow(0, 0, 10px, 5px, $pink);
+                        @include shadow(0, 0, 10px, 0.5rem, $pink);
                     }
                 }
             }
@@ -66,7 +66,7 @@
                     }
 
                     &::-webkit-slider-thumb {
-                        @include shadow(0, 0, 10px, 5px, $yellow);
+                        @include shadow(0, 0, 10px, 0.5rem, $yellow);
                     }
                 }
             }
@@ -90,7 +90,7 @@
                     }
 
                     &::-webkit-slider-thumb {
-                        @include shadow(0, 0, 10px, 5px, $prim);
+                        @include shadow(0, 0, 10px, 0.5rem, $prim);
                     }
                 }
             }
